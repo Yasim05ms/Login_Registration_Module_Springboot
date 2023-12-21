@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width: 30% !important;
+}
+.logotop{
+    width: 10% !important;
+}
+#canvas{
+    width: 20%;
+}
+@media(max-width:576px)
+{
+    #canvas{
+        width: 50% !important;
+    }
+    .logo{
+        width: 40% !important;
+    }
+}
+
+@media(max-width:1200)
+{
+    #canvas{
+        width: 30% !important;
+    }
+    .logo{
+        width: 40% !important;
+    }
+}
+
+@media(max-width:300px)
+{
+    #canvas{
+        width: 80% !important;
+    }
+    .logo{
+        width: 40% !important;
+    }
+}
+
+.setpadding{
+    padding-right: 0;
+    padding-left: 0;
+}
+.topcenter{
+    align-items: center !important;
+}
+
+.accordion-item{
+    border: none !important;
+}
+
+.hvr1:hover{
+    background: white !important;
+}
+.hvr:focus{
+    box-shadow: none;
+    color: black;
+}
+
+.search:focus{
+    border: 1px solid red;
+    outline: none;
+    box-shadow: none;
+}
+.search :hover{
+    border: 2px solid blue !important;
+}
+
+.makebld :hover{
+    font-weight: bold;
+}
+
+@media (max-width:576px){
+    .wid100{
+        width: 100% !important;
+    }
+}
+
+.alignvert{
+    vertical-align:middle;
+}
+
+@media (max-width:576px){
+    .wid100{
+        width: 100% !important;
+    }
+}
